@@ -8,16 +8,57 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <body>
-    <section>
         <header class="hero">
             <div class="container">
                 <p class="hero__text">
-                    Você foi convidado para minha festa de aniversário.
+                    Você foi convidado para minha festa de aniversário. 
+                    <br>
+                    SAVE THE DATE <span id="contador"></span>
                 </p>
+                <div class="infos-bar">
+                    <ul class="infos-bar__infos">
+                        <li class="infos-bar__infos__item">
+                            <b>Localização</b>
+                            Rua Belém nº01. Bairro: JavaScript. 
+                        </li>
+                        <li class="infos-bar__infos__item">
+                            <b>Hora</b>
+                            22:00
+                        </li>
+                        <li class="infos-bar__infos__item">
+                            <b>Quando</b>
+                            26/12
+                        </li>
+                    </ul>
+                    <a href="#" class="button button--primary">
+                        Confirme sua presença aqui!
+                    </a>
+                </div>
             </div>
         </header>
-    </section>
+
+        <section class="event event--local">
+            <div class="container" data-aos="fade-right">
+                <div class="event__details">
+                    <h2 class="event__details__title">Localização</h2>
+                    <p class="event__details__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo eveniet unde quidem illum natus. In dicta quam, numquam impedit beatae, voluptatibus cumque iusto libero pariatur aut ducimus rem nisi modi.</p>
+                </div>
+                <img class="event__image" src="./images/Salão das Casuarinas - Salão de Festas e Casamentos _ Ribeirão Preto e Região.jfif" alt="">
+            </div>
+        </section>
+        <section class="event event--horadata">
+            <div class="container" data-aos="fade-right">
+                <div class="event__details">
+                    <h2 class="event__details__title">Hora e Data</h2>
+                    <p class="event__details__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo eveniet unde quidem illum natus. In dicta quam, numquam impedit beatae, voluptatibus cumque iusto libero pariatur aut ducimus rem nisi modi.</p>
+                </div>
+                <img class="event__image" src="./images/Заметки для сторис • @bond_stori.jpg" alt="hora e data">
+            </div>
+        </section>  
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
